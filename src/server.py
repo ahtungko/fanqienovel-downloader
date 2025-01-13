@@ -1082,7 +1082,8 @@ if __name__ == '__main__':
     # Run the server
     socketio.run(
         app,
-        host='0.0.0.0',
+        #host='0.0.0.0',
+        host='::',
         port=12930,
         debug=False,
         use_reloader=False
